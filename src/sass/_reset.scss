@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul, ol, dl{
+  list-style-type: none;
+}
+
+button:focus, button:active{
+  outline: none;
+  border: 0;
+  user-select: none;
+}

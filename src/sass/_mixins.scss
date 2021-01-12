@@ -1,0 +1,59 @@
+
+@function pxToRem($size) {
+  @return $size / 16px * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: pxToRem($size);
+}
+
+
+@mixin mobile-s{
+  @media(max-width:#{$mobile-s}) {
+    @content;
+  }
+}
+
+
+@mixin mobile-m{
+  @media(max-width:#{$mobile-m}) {
+    @content;
+  }
+}
+
+@mixin mobile-l{
+  @media(max-width:#{$mobile-l}) {
+    @content;
+  }
+}
+
+@mixin tablet{
+  @media(max-width:#{$tablet}) {
+    @content;
+  }
+}
+
+
+@mixin laptop{
+  @media(max-width:#{$laptop}) {
+    @content;
+  }
+}
+
+@mixin laptop-m{
+  @media(max-width:#{$laptop-m}) {
+    @content;
+  }
+}
+
+@mixin laptop-l{
+  @media(max-width:#{$laptop-l}) {
+    @content;
+  }
+}
+
+@mixin laptop-xl{
+  @media(max-width:#{$laptop-xl}) {
+    @content;
+  }
+}

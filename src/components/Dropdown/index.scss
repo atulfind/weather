@@ -1,0 +1,52 @@
+@import '../../sass/mixins';
+@import '../../sass/variable';
+
+.dropdown{
+  position: relative;
+  .city-row{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-transform: capitalize;
+    .city{
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+    .state-country{
+      font-size: 11px;
+      display: flex;
+      span{
+        padding: 2px 10px;
+        background-color: $fc-primary-op1;
+        border-radius: 10px;
+        &:first-child{
+          margin: 0 10px;
+        }
+      }
+    }
+  }
+  .option-selected{
+    cursor: pointer;
+    .icon-dropdown{
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+  }
+  .options{
+    position: absolute;
+    background: $white;
+    width: 100%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    z-index: 1;
+    .option{
+      padding: 10px;
+      cursor: pointer;
+      border-bottom: $border;
+    }
+    &.hide{
+      display: none;
+    }
+  } 
+}

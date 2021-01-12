@@ -1,1 +1,1 @@
-# weather
+just `npm install` then `npm start`

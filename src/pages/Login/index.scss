@@ -1,0 +1,50 @@
+.auth-page{
+  height: 100vh;
+  .left-box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .auth-wrap{
+      width: 70%;
+      h2{
+        margin-bottom: 5px;
+        font-size: 36px;
+      }
+      .caption{
+        font-size: 16px;
+      }
+      .input-box{
+        margin-top: 40px;
+        .input-field{
+          margin-top: 25px;
+          position: relative;
+          label{
+            font-size: 12px;
+            display: flex;
+          }
+        }
+        .btn-group{
+          display: flex;
+          align-items: center;
+          margin-top: 25px;
+          a{
+            margin-left: auto;
+            font-size: 14px;
+            color: #1c819e;
+            text-decoration: none;
+            margin-top: auto;
+          }
+        }
+      }
+    }
+  }
+  .right-box{
+    background: #272B3F;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+

@@ -1,0 +1,14 @@
+@import '../../sass/mixins';
+@import '../../sass/variable';
+
+.button{
+  height: 35px;
+  min-width: 110px;
+  border-radius: 20px;
+  border: 0;
+  background-color: $secondary;
+  color: $white;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+@import './sass/variable';
+@import './sass/mixins';
+
+.app {
+  min-height: 100vh;
+}
+
+.caption{
+  color: $fc-primary-op5;
+}
+
+.col-2{
+  width: 50%;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+}
+
+.error{
+  color: #A71717;
+  font-size: 11px;
+  position: absolute;
+  bottom: -15px;
+}

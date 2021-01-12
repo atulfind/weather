@@ -1,0 +1,47 @@
+@import '../../sass/mixins';
+@import '../../sass/variable';
+
+.dashboard{
+  background: #020D45;  
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 30px 50px;
+  .button{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+  }
+  .other-details{
+    margin-bottom: auto;
+    margin-top: 20px;
+    .page-heading{
+      color: $white;
+      font-size: 50px;
+    }
+    .weather-search{
+      margin-top: 20px;
+      position: relative;
+      height: 35px;
+      overflow: hidden;
+      border-radius: 5px;
+      .input{
+        padding: 0 10px;
+        border-radius: 5px;
+      }
+      .search-button{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        right: 0;
+        top: 0;
+        width: 40px;
+        background: #BBDEFB;
+        cursor: pointer;
+      }
+    }
+  }
+}
